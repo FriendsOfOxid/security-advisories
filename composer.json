@@ -1,0 +1,21 @@
+{
+  "name": "friendsofoxid/security-advisories",
+  "description": "Security advisory metapackage for OXID eShop projects",
+  "type": "metapackage",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "D3 team",
+      "role": "maintainer",
+      "email": "support@shopmodule.com"
+    }
+  ],
+  "require": {
+    "friendsofoxid/security-advisories-core": "*",
+    "friendsofoxid/security-advisories-shop": "*",
+    "friendsofoxid/security-advisories-plugins": "*"
+  },
+  "suggest": {
+      "roave/security-advisories": "For broader ecosystem protection"
+  }
+}
